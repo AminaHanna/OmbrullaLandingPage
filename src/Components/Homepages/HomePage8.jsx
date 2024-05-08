@@ -90,7 +90,7 @@ function HomePage8() {
             <p className='font-semibold sm:font-bold text-white'><span className='text-blue-500 pr-5'><i class="fa-solid fa-square"></i></span>OUR TESTIMONIALS</p>
             <h1 className='text-white font-semibold text-2xl sm:text-4xl mt-8'>What Customers Say About Us</h1>
         </div>
-        <div className="w-[1200px] m-auto">
+        <div className="w-3/4 m-auto">
             <div className="mt-20">
                 <Slider {...settings} >
                     {data.map((item) => (
