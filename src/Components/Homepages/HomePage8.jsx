@@ -90,11 +90,11 @@ function HomePage8() {
             <p className='font-semibold sm:font-bold text-white'><span className='text-blue-500 pr-5'><i class="fa-solid fa-square"></i></span>OUR TESTIMONIALS</p>
             <h1 className='text-white font-semibold text-2xl sm:text-4xl mt-8'>What Customers Say About Us</h1>
         </div>
-        <div className="w-3/4 m-auto">
+        <div className="w-[1200px] m-auto">
             <div className="mt-20">
                 <Slider {...settings} >
                     {data.map((item) => (
-                        <div className='sm:h-[380px] w-[200px] m-5 bg-white text-black rounded-t-2xl'>
+                        <div className='sm:h-[360px] w-[200px] m-5 bg-white text-black rounded-t-2xl'>
                             <div className="flex flex-col justify-center items-center gap-4">
                                 <img className='w-5 sm:w-10 mr-48 sm:mr-96 mt-5' src={logo} alt="Loading..." />
                                 <p className='px-10 pb-8 text-xs sm:text-base text-slate-600'>{item.description}</p>
