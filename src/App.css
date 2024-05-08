@@ -1,0 +1,32 @@
+.HeaderPart{
+    background-image: linear-gradient(to top, rgba(168, 174, 178, 0), rgb(153, 199, 245));
+}
+
+footer{
+    background-color: rgb(7, 7, 39);
+}
+.slick-slide > div {
+    margin: 0 25px;
+}
+
+.image img{
+    border-radius: 70% 60% 50% 50%;
+    position: relative;
+}
+
+.image div{
+    border: 3px solid rgb(58, 58, 165);
+    position: absolute;
+    /* border-radius: 70% 50% 50% 90%; */
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+}
+
+@keyframes animate {
+    0%,100%{
+        border-radius: 70% 50% 50% 90%;
+    }
+    50%{
+        border-radius: 80% 50% 50% 40%;
+    }
+}
