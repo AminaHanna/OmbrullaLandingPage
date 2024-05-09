@@ -49,12 +49,12 @@ const NavBar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden absolute">
+        <div className="md:hidden">
           <div className="pt-2 pb-3 sm:px-3">
-            <div className="w-[250px] bg-white h-[500px]">
-                {/* <div className=" bg-slate-400 p-10"> */}
-                    {/* <img className='h-[40px]' src={img} alt="Loading..." /> */}
-                {/* </div> */}
+            <div className="w-[300px] bg-white fixed top-0 h-[500px]">
+                <div className=" bg-slate-400 p-10">
+                    <img className='h-[30px]' src={img} alt="Loading..." />
+                </div>
                 <Link to="/home"><p className='sm:font-bold px-10 py-3 mx-2 border-b-2 border-slate-500'>Home</p></Link>
                 <Link to="/services"><p className='sm:font-bold px-10 py-3 mx-2 border-b-2 border-slate-500 flex justify-between'>Services <span className='text-blue-500'><i class="fa-solid fa-circle-plus"></i></span></p></Link>
                 <Link to="/product"><p className='sm:font-bold px-10 py-3 mx-2 border-b-2 border-slate-500 flex justify-between'>Product <span className='text-blue-500'><i class="fa-solid fa-circle-plus"></i></span></p></Link>
