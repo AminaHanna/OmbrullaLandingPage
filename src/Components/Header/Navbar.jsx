@@ -51,7 +51,7 @@ const NavBar = () => {
       {isOpen && (
         <div className="md:hidden">
           <div className="pt-2 pb-3 sm:px-3">
-            <div className="w-[300px] bg-white fixed top-0 h-full">
+            <div className="w-[270px] bg-white fixed top-0 h-full">
                 <div className=" bg-slate-400 p-10">
                     <img className='h-[30px]' src={img} alt="Loading..." />
                 </div>
